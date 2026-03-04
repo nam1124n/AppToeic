@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">toeic_app</string>
+    <string name="Q1_5">Writing Q1-5: Write a sentence based on a picture</string>
+    <string name="Q6_7">Writing Q6-7: Write a sentence based on a picture</string>
+    <string name="Q8">Writing Q8: Write a sentence based on a picture</string>
+</resources>

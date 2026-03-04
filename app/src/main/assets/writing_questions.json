@@ -1,0 +1,322 @@
+[
+  {
+    "testId": 1,
+    "id": 11,
+    "questionNumber": 1,
+    "imageUrl": "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "meet, office, discuss",
+    "sampleAnswer": "The professionals will meet in the office to discuss their ongoing project."
+  },
+  {
+    "testId": 1,
+    "id": 12,
+    "questionNumber": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "study, library, book",
+    "sampleAnswer": "The student decided to study in the library using a comprehensive reference book."
+  },
+  {
+    "testId": 1,
+    "id": 13,
+    "questionNumber": 3,
+    "imageUrl": "https://images.unsplash.com/photo-1493770348161-369560ae357d?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "restaurant, eat, dinner",
+    "sampleAnswer": "They went to a popular restaurant to eat dinner together after a long day of work."
+  },
+  {
+    "testId": 1,
+    "id": 14,
+    "questionNumber": 4,
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "beach, vacation, relax",
+    "sampleAnswer": "During her vacation at the beach, she finally found the time to relax."
+  },
+  {
+    "testId": 1,
+    "id": 15,
+    "questionNumber": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "work, computer, desk",
+    "sampleAnswer": "He has been working on his computer at his desk for the past three hours."
+  },
+  {
+    "testId": 1,
+    "id": 16,
+    "questionNumber": 6,
+    "imageUrl": null,
+    "keywords": "Read the e-mail below.\n\nFROM: Electronia Customer Service\nTO: New customer\nSUBJECT: Thank you for your purchase\nSENT: June 9, 10:21 A.M.\n\nThank you for purchasing a Power Speed printer at Electronia. We hope that you are satisfied with both the printer you bought as well as the customer service you received. If you have any problems with the printer, please contact us via the Internet at our company's homepage. Thank you!\n\nRespond to the e-mail as if you are a customer. In your e-mail, describe TWO problems that you have had with the printer and make ONE request for information.",
+    "sampleAnswer": "Dear Customer Service,\n\nI am writing to inform you of some issues I have encountered with the Power Speed printer I recently bought. \n\nFirstly, there is a recurring paper jam every time I attempt to print more than five pages double-sided. Secondly, the print quality for colored images is extremely faded, despite the ink cartridges being completely new.\n\nCould you please provide information on how I can claim my warranty or return the product for a replacement?\n\nThank you,\n[Your Name]"
+  },
+  {
+    "testId": 1,
+    "id": 17,
+    "questionNumber": 7,
+    "imageUrl": null,
+    "keywords": "Read the e-mail below.\n\nFROM: HR Department\nTO: All Staff\nSUBJECT: Annual Performance Review\nSENT: October 14, 09:00 AM\n\nThis is a friendly reminder that the annual performance review process will begin next month. Please ensure that all self-evaluations are completed and submitted via the company portal by October 31. If you need any assistance navigating the portal, please do not hesitate to reach out to the HR team. We appreciate your cooperation.\n\nRespond to the e-mail as if you are an employee. In your e-mail, explain ONE issue you had with the portal and make TWO suggestions for improving the self-evaluation process.",
+    "sampleAnswer": "To the Human Resources Department,\n\nThank you for the reminder regarding the upcoming annual performance reviews. I will ensure my self-evaluation is completed promptly.\n\nHowever, I did encounter an issue while using the company portal: the system times out too quickly if I pause to gather my supporting documents, forcing me to restart the entire form.\n\nI have two suggestions for improving this process. First, it would be highly beneficial to add a \"Save Draft\" feature so we can complete the evaluation in multiple sessions. Second, perhaps the portal could automatically integrate with our quarterly goal-tracking software to prepopulate some of our achievements.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "testId": 1,
+    "id": 18,
+    "questionNumber": 8,
+    "imageUrl": null,
+    "keywords": "Some companies prefer employees who specialize in one specific job. Others prefer workers who can do many different tasks. From the company's point of view, which kind of employee is more valuable? Use specific reasons and examples to support your answer.",
+    "sampleAnswer": "In today’s rapidly changing business environment, the debate over whether companies should value specialists or generalists is increasingly relevant. While specialists offer deep expertise in a particular domain, I firmly believe that from a company's point of view, employees who can perform a variety of tasks—generalists—are ultimately more valuable because they provide flexibility, foster innovation, and offer better resilience against market fluctuations.\n\nFirst and foremost, generalists provide unparalleled flexibility, which is crucial for modern businesses. Companies frequently face unexpected challenges or sudden shifts in project priorities. An employee who possesses a diverse skill set can seamlessly transition between different roles as needed. For example, during a product launch, a marketing professional with basic graphic design and copywriting skills can immediately adjust marketing materials without having to wait for a specialized designer. This adaptability reduces bottlenecks and ensures that projects maintain momentum even when resources are constrained.\n\nFurthermore, employees with cross-functional abilities often drive innovation. Innovation frequently occurs at the intersection of different disciplines. A worker who understands multiple aspects of a business—such as sales, customer service, and product development—can identify underlying patterns and propose holistic solutions that a specialist might overlook. For instance, a developer who also understands user experience (UX) design is more likely to create software that is not only technically sound but also intuitive for the end-user. This multifaceted perspective allows generalists to bridge gaps between departments, fostering a more collaborative and creative company culture.\n\nFinally, hiring versatile workers provides a company with greater resilience against economic instability. In times of recession or when a company needs to downsize, a specialist whose niche is no longer critical becomes a liability. In contrast, generalists can be reassigned to other vital functions, preserving institutional knowledge and saving the company the costs associated with hiring and training new staff. A startup, for example, often relies heavily on 'jacks-of-all-trades' precisely because their limited workforce must fulfill various essential functions, demonstrating that versatility is a core component of organizational survival.\n\nIn conclusion, while employees who specialize in one specific job play an important role in executing complex, pinpointed tasks, versatile workers offer superior value. Their flexibility, capacity to spark innovation, and the resilience they bring to an organization make them indispensable assets. In an unpredictable corporate landscape, a workforce capable of adapting to multiple challenges is the strongest foundation for long-term success."
+  },
+  {
+    "testId": 2,
+    "id": 21,
+    "questionNumber": 1,
+    "imageUrl": "https://images.unsplash.com/photo-1544642899-f0d6e5f6ed6f?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "train, passenger, board",
+    "sampleAnswer": "Many passengers are waiting to board the train at the busy station."
+  },
+  {
+    "testId": 2,
+    "id": 22,
+    "questionNumber": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "manager, presentation, graph",
+    "sampleAnswer": "The manager is giving a presentation while pointing at the sales graph."
+  },
+  {
+    "testId": 2,
+    "id": 23,
+    "questionNumber": 3,
+    "imageUrl": "https://images.unsplash.com/photo-1587560699334-bea53569a5fc?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "coffee, keyboard, type",
+    "sampleAnswer": "She sips her coffee while typing an important email on her keyboard."
+  },
+  {
+    "testId": 2,
+    "id": 24,
+    "questionNumber": 4,
+    "imageUrl": "https://images.unsplash.com/photo-1565153907400-7e01a9ab25f3?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "mechanic, car, repair",
+    "sampleAnswer": "The skilled mechanic is repairing the car engine in the garage."
+  },
+  {
+    "testId": 2,
+    "id": 25,
+    "questionNumber": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1517520287167-4bbf64a00d66?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "grocery, aisle, choose",
+    "sampleAnswer": "The customer is carefully choosing fresh vegetables in the grocery aisle."
+  },
+  {
+    "testId": 2,
+    "id": 26,
+    "questionNumber": 6,
+    "imageUrl": null,
+    "keywords": "Read the e-mail below.\n\nFROM: Property Management\nTO: All Tenants\nSUBJECT: Scheduled Maintenance\nSENT: March 12, 02:30 PM\n\nPlease be informed that there will be scheduled maintenance for the elevator in Building A next Tuesday, March 18, from 9:00 AM to 1:00 PM. During this time, the elevator will be completely out of service. We apologize for the inconvenience and appreciate your understanding as we work to keep our facilities safe.\n\nRespond to the e-mail as if you are a tenant. In your e-mail, confirm you received the notice, and ask TWO questions regarding the maintenance schedule.",
+    "sampleAnswer": "Dear Property Management,\n\nI am writing to confirm that I have received your notice regarding the scheduled elevator maintenance in Building A next Tuesday.\n\nI do have two quick questions regarding this event. Firstly, will the service stairs remain accessible and fully lit during the maintenance window? Secondly, are there any plans to provide assistance for elderly residents on higher floors who might need to transport groceries during this downtime?\n\nThank you for your hard work in maintaining our building.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "testId": 2,
+    "id": 27,
+    "questionNumber": 7,
+    "imageUrl": null,
+    "keywords": "Read the e-mail below.\n\nFROM: Global Logistics Inc.\nTO: Valued Customer\nSUBJECT: Shipment Delay Notification\nSENT: August 5, 08:15 AM\n\nWe are writing to inform you that your recent order (#89342) has been delayed due to severe weather conditions at our central distribution hub. We are working diligently to minimize the delay and expect your package to arrive within 3-5 business days. We apologize for any inconvenience this may cause.\n\nRespond to the e-mail as if you are the customer. In your e-mail, express ONE concern about the delay and make TWO requests regarding compensation or expedited shipping.",
+    "sampleAnswer": "Dear Global Logistics Team,\n\nThank you for notifying me. I am quite concerned because this order contains time-sensitive materials that I urgently need for an upcoming corporate event this weekend.\n\nGiven the circumstances, I would like to request that my package be upgraded to overnight expedited shipping once the weather clears, at no additional cost to me. Additionally, I would like to request a partial refund or discount voucher for future purchases to compensate for the significant inconvenience caused by this delay.\n\nI look forward to your prompt response.\n\nSincerely,\n[Your Name]"
+  },
+  {
+    "testId": 2,
+    "id": 28,
+    "questionNumber": 8,
+    "imageUrl": null,
+    "keywords": "Do you agree or disagree with the following statement? Learning a foreign language should be mandatory for all high school students. Use specific reasons and examples to support your position.",
+    "sampleAnswer": "The question of whether learning a foreign language should be a mandatory requirement for all high school students is a topic of considerable debate. While some argue that students should focus primarily on core subjects like mathematics and science, I strongly believe that foreign language education should be compulsory. Learning a new language not only enhances cognitive development but also broadens cultural understanding and significantly improves future career prospects in an increasingly globalized world.\n\nTo begin with, studying a foreign language has proven cognitive benefits. Research consistently shows that bilingual individuals often exhibit superior problem-solving skills, better memory, and increased creativity compared to those who speak only one language. Navigating the complex grammar rules, vocabulary, and sentence structures of a new language exercises the brain much like a physical workout strengthens muscles. For high school students, whose brains are still developing, this cognitive boost can translate to improved academic performance across all disciplines, including logic-heavy subjects like math.\n\nIn addition to cognitive advantages, mandatory language learning fosters cultural awareness and empathy. Language and culture are intrinsically linked; by learning how someone else speaks, a student gains insight into how they think and view the world. In our modern, interconnected society, misunderstandings often arise from cultural ignorance. High school is a critical period for shaping a young person's worldview. Exposure to different languages helps dismantle stereotypes and promotes a more tolerant, open-minded generation capable of collaborating with diverse global communities.\n\nFinally, from a practical standpoint, foreign language proficiency is a highly sought-after skill in the contemporary job market. As businesses continue to expand their operations internationally, they desperately need employees who can communicate effectively with clients, partners, and colleagues across borders. A student who graduates high school with a foundational understanding of a second language, such as Spanish, Mandarin, or French, possesses a distinct competitive advantage. Whether pursuing careers in international trade, diplomacy, healthcare, or technology, the ability to communicate across language barriers opens doors that would otherwise remain closed.\n\nIn conclusion, the integration of mandatory foreign language classes into high school curricula is essential. The cognitive enhancements, cultural empathy, and significant career advantages it provides are indispensable tools for the next generation. By equipping students with the ability to communicate globally, we are preparing them not just for successful careers, but to be responsible and effective citizens of the world."
+  },
+  {
+    "testId": 3,
+    "id": 31,
+    "questionNumber": 1,
+    "imageUrl": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "people, sitting, table",
+    "sampleAnswer": "The people are sitting around a table having a group discussion."
+  },
+  {
+    "testId": 3,
+    "id": 32,
+    "questionNumber": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "woman, laptop, typing",
+    "sampleAnswer": "The woman is intensely typing on her laptop while analyzing the screen."
+  },
+  {
+    "testId": 3,
+    "id": 33,
+    "questionNumber": 3,
+    "imageUrl": "https://images.unsplash.com/photo-1473093226027-1422ab2bcbb8?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "chef, cooking, kitchen",
+    "sampleAnswer": "The skilled chef is happily cooking an elaborate meal in the kitchen."
+  },
+  {
+    "testId": 3,
+    "id": 34,
+    "questionNumber": 4,
+    "imageUrl": "https://images.unsplash.com/photo-1518605368461-1ee7900b91d2?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "flowers, blooming, garden",
+    "sampleAnswer": "The beautiful yellow flowers are finally blooming in the spring garden."
+  },
+  {
+    "testId": 3,
+    "id": 35,
+    "questionNumber": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1506784365847-bbad939e9335?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "calendar, marking, date",
+    "sampleAnswer": "She is marking an important upcoming date on her desk calendar."
+  },
+  {
+    "testId": 3,
+    "id": 36,
+    "questionNumber": 6,
+    "imageUrl": null,
+    "keywords": "Read the e-mail below.\n\nFROM: Marketing Department\nTO: Software Development Team\nSUBJECT: New Campaign Launch Website Setup\nSENT: November 4, 11:15 AM\n\nHello developers, we are planning to launch our new nationwide marketing campaign by the end of this month. We need a dedicated landing page designed and published no later than November 20. The page must include an email signup form and a promotional video block. Could you please confirm if your team has the bandwidth to complete this in time?\n\nRespond to the e-mail as if you are the project manager for the development team. In your e-mail, accept the deadline and ask TWO questions about the technical specifications of the video and signup form.",
+    "sampleAnswer": "Hi Marketing Team,\n\nI have reviewed your request and verified with my team. We have the bandwidth to design and publish the landing page by your November 20 deadline.\n\nBefore we begin, I need some clarification. Could you please let me know which video hosting platform (e.g., YouTube, Vimeo) you plan to use so we can embed it correctly? Additionally, which CRM system should the email signup form be integrated with?\n\nLooking forward to working together on this campaign.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "testId": 3,
+    "id": 37,
+    "questionNumber": 7,
+    "imageUrl": null,
+    "keywords": "Read the e-mail below.\n\nFROM: City Water Works\nTO: Resident\nSUBJECT: Urgent: Water Main Leak in your neighborhood\nSENT: May 22, 06:45 AM\n\nDear Resident, we have detected a severe water main break on Oak Street. Emergency repairs will commence immediately. Water service in your sector will be shut off sporadically over the next 48 hours without prior notice. Drinking water trucks will be deployed at the local high school parking lot.\n\nRespond to the e-mail as if you are a local resident. In your e-mail, express ONE concern about the unpredictable shutoffs and make TWO requests about the drinking water trucks' schedule.",
+    "sampleAnswer": "Dear City Water Works,\n\nI appreciate the immediate notification regarding the water main leak.\n\nHowever, I am very concerned about the unpredictable nature of the water shutoffs, as my family requires a stable water supply for medical sterilization purposes during the day.\n\nRegarding the drinking water trucks, could you please provide a fixed schedule of when these trucks will be stationed at the high school? Furthermore, I would like to request that you also deploy a truck closer to the southern end of the neighborhood, as the high school is quite far for elderly residents to walk to carrying heavy jugs.\n\nThank you,\n[Your Name]"
+  },
+  {
+    "testId": 3,
+    "id": 38,
+    "questionNumber": 8,
+    "imageUrl": null,
+    "keywords": "Do you agree or disagree with the following statement? It is better to work in a team than to work alone. Use specific reasons and examples to support your position.",
+    "sampleAnswer": "The debate over whether it is better to work alone or in a team is a common one in both academic and professional circles. Some people prefer the autonomy and focus that comes from independent work, while others thrive in collaborative environments. In my opinion, working in a team is generally superior to working alone because teamwork fosters creative problem-solving, distributes the workload efficiently, and provides a built-in support system that enhances learning and morale.\n\nFirst and foremost, teamwork drives innovation through the synergy of diverse ideas. When a group of individuals with different backgrounds, skill sets, and perspectives collaborate, they can approach a problem from multiple angles. This diversity of thought often leads to creative solutions that a single person working in isolation might never generate. For example, in a marketing campaign, a copywriter, a graphic designer, and a data analyst working together can produce a far more compelling and targeted advertisement than any of them could produce alone. The brainstorming process inherent in teamwork acts as a catalyst for innovation.\n\nSecondly, working in a team allows for a more efficient distribution of labor. Complex projects often involve an overwhelming amount of work that can quickly lead to burnout if tackled by a single individual. In a team setting, tasks can be delegated according to each member's strengths and expertise. Not only does this speed up the overall completion time, but it also ensures a higher quality of output, as each component of the project is handled by someone skilled in that specific area. This division of labor is precisely why modern corporations organize their workforce into specialized departments.\n\nFinally, teamwork provides a crucial psychological support system that benefits both the project and the individuals involved. Working alone can be isolating and stressful, particularly when facing difficult challenges or tight deadlines. A team offers a network of peers who can share the emotional burden, offer encouragement, and provide constructive feedback. Furthermore, teams serve as excellent environments for informal learning and mentorship. Junior team members can rapidly acquire new skills by observing and interacting with more experienced colleagues—an opportunity that is entirely absent in solitary work environments.\n\nIn conclusion, while independent work certainly has its place for tasks requiring intense focus, working in a team offers undeniable advantages. The combination of creative synergy, efficient task delegation, and emotional support makes teamwork the most effective approach for tackling complex goals. Ultimately, the collaborative pooling of human resources almost always yields results that are greater than the sum of their individual parts."
+  },
+  {
+    "testId": 4,
+    "id": 41,
+    "questionNumber": 1,
+    "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "building, tall, sky",
+    "sampleAnswer": "The tall modern building reaches high into the clear blue sky."
+  },
+  {
+    "testId": 4,
+    "id": 42,
+    "questionNumber": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "students, laughing, campus",
+    "sampleAnswer": "The young students are laughing together while walking around the campus."
+  },
+  {
+    "testId": 4,
+    "id": 43,
+    "questionNumber": 3,
+    "imageUrl": "https://images.unsplash.com/photo-1555529733-0e670560f7e1?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "painting, brush, art",
+    "sampleAnswer": "The artist carefully uses a fine brush to create a detailed painting."
+  },
+  {
+    "testId": 4,
+    "id": 44,
+    "questionNumber": 4,
+    "imageUrl": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "photographer, camera, aiming",
+    "sampleAnswer": "The professional photographer is aiming his heavy camera at the subject."
+  },
+  {
+    "testId": 4,
+    "id": 45,
+    "questionNumber": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1472289065668-ce650ac443d2?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "man, smiling, outdoors",
+    "sampleAnswer": "The confident man is smiling brightly while standing outdoors in the sun."
+  },
+  {
+    "testId": 4,
+    "id": 46,
+    "questionNumber": 6,
+    "imageUrl": null,
+    "keywords": "Read the e-mail below.\n\nFROM: Airline Customer Support\nTO: Registered Flyer\nSUBJECT: Flight Cancellation Notice\nSENT: July 12, 05:00 PM\n\nDear Passenger, we regret to inform you that your flight QA402 to Tokyo scheduled for tomorrow has been cancelled due to an unexpected mechanical failure. We sincerely apologize for this disruption to your travel plans. You may easily rebook your flight on another date through our mobile app, or request a full refund.\n\nRespond to the e-mail as if you are the passenger. In your e-mail, make ONE request to be booked on an affiliate airline's flight out today, and ask ONE question about hotel compensations.",
+    "sampleAnswer": "Dear Airline Support,\n\nI am extremely disappointed to receive this cancellation notice so close to my departure time.\n\nSince it is imperative that I arrive in Tokyo by tomorrow morning, I request that you rebook me on an affiliate airline's flight departing later tonight, rather than postponing my trip.\n\nFurthermore, if I am forced to stay overnight near the airport instead, could you clarify your policy regarding compensation for hotel and meal expenses caused by this mechanical failure?\n\nI expect a prompt resolution.\n\nSincerely,\n[Your Name]"
+  },
+  {
+    "testId": 4,
+    "id": 47,
+    "questionNumber": 7,
+    "imageUrl": null,
+    "keywords": "Read the e-mail below.\n\nFROM: Fitness Club Manager\nTO: All Members\nSUBJECT: Gym Renovation Feedback\nSENT: February 3, 10:15 AM\n\nDear Members, we are planning a major renovation of our gym facilities this coming Summer. We want to ensure the upgrades meet your needs. We are currently debating whether to expand the free-weight area or to build a new yoga studio. Please email us your thoughts, and let us know if there are any other specific amenities you would like to see added.\n\nRespond to the e-mail as if you are a gym member. In your e-mail, give your opinion on which expansion is better, and suggest TWO other specific amenities.",
+    "sampleAnswer": "Dear Fitness Club Manager,\n\nThank you for reaching out to the members for input on the upcoming renovations. \n\nIn my opinion, expanding the free-weight area would be the better choice, as that section is frequently overcrowded during peak hours, whereas the existing group fitness rooms seem adequate for current class sizes.\n\nIn addition to that expansion, I would like to suggest two other amenities. It would be fantastic if you could add a sauna to the locker rooms for post-workout recovery. Also, installing a dedicated filtered water bottle refill station would be a great environmentally friendly addition.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "testId": 4,
+    "id": 48,
+    "questionNumber": 8,
+    "imageUrl": null,
+    "keywords": "Read the following prompt and write an essay responding to it: Some people think that the primary purpose of television should be education, while others believe its primary purpose should be entertainment. Discuss both views and give your own opinion.",
+    "sampleAnswer": "Television has undeniably become a central fixture in modern households, profoundly influencing culture and public discourse. However, a constant debate surrounds its ideal function: should television serve primarily as an educational tool, or is it fundamentally a medium for entertainment? By examining both perspectives, it becomes clear that while education is valuable, television's primary role remains entertainment, albeit entertainment that can inherently educate.\n\nAdvocates for educational television argue that the medium possesses unmatched power to disseminate knowledge to the masses. Documentaries, news programs, and instructional shows can provide viewers with insights into history, science, and current events that they might otherwise never access. For children, educational programming can supplement schooling by teaching fundamental concepts like mathematics and literacy in engaging ways. Proponents of this view believe that squandering television’s vast reach on pure amusement is a missed opportunity to elevate societal intelligence and awareness.\n\nConversely, those who argue that television’s primary purpose is entertainment highlight the medium's role as a vital stress reliever. Today's fast-paced, high-pressure society leaves individuals mentally and physically exhausted. When people return home after a grueling day, they often seek escapism—a way to detach from their responsibilities and unwind. Sitcoms, dramas, and reality shows provide an accessible and affordable means of relaxation. If television were strictly educational, it would simply feel like an extension of school or work, failing to provide the psychological downtime necessary for mental well-being.\n\nIn my opinion, while both sides make valid points, the primary purpose of television must be entertainment. However, this does not mean it must be devoid of educational value; the best programming often blends both. 'Edutainment'—content designed to educate through entertainment—is highly effective. Historical dramas, for instance, capture audiences with compelling narratives while simultaneously teaching them about past eras. Ultimately, human nature gravitates toward pleasure rather than formal instruction during leisure time. If television ceases to be entertaining, it will lose its audience, rendering any educational intentions useless.\n\nIn conclusion, the debate over whether television should educate or entertain is often framed as a false dichotomy. While educational content is incredibly important and should be readily available, the fundamental reason the vast majority of people turn on their televisions is to be entertained and to relax. Therefore, entertainment remains its primary purpose, providing a necessary escape in an otherwise demanding world."
+  },
+  {
+    "testId": 5,
+    "id": 51,
+    "questionNumber": 1,
+    "imageUrl": "https://images.unsplash.com/photo-1511556820780-d912e42b4980?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "truck, load, boxes",
+    "sampleAnswer": "The workers are carefully loading heavy cardboard boxes into the back of the truck."
+  },
+  {
+    "testId": 5,
+    "id": 52,
+    "questionNumber": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "supermarket, cart, pushing",
+    "sampleAnswer": "A woman is pushing a shopping cart down the aisle in the supermarket."
+  },
+  {
+    "testId": 5,
+    "id": 53,
+    "questionNumber": 3,
+    "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "desk, monitors, coding",
+    "sampleAnswer": "The programmer is focused on coding using multiple monitors at his desk."
+  },
+  {
+    "testId": 5,
+    "id": 54,
+    "questionNumber": 4,
+    "imageUrl": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "presentation, screen, pointing",
+    "sampleAnswer": "The executive is pointing at the large screen during his important presentation."
+  },
+  {
+    "testId": 5,
+    "id": 55,
+    "questionNumber": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1600&auto=format&fit=crop",
+    "keywords": "street, walking, phone",
+    "sampleAnswer": "The young man is checking his phone while walking down the busy city street."
+  },
+  {
+    "testId": 5,
+    "id": 56,
+    "questionNumber": 6,
+    "imageUrl": null,
+    "keywords": "Read the e-mail below.\n\nFROM: Project Sponsor\nTO: External Consultant\nSUBJECT: Final Report Revision\nSENT: September 20, 01:20 PM\n\nThank you for submitting the draft of the market research report. The preliminary data is excellent, but the executive summary is a bit too long and disjointed. I need you to heavily edit the executive summary down to a single page before we present it to the board next week. When do you think you can have the revised version ready?\n\nRespond to the e-mail as if you are the consultant. In your e-mail, provide a timeframe for the revision, and ask TWO specific questions about what parts of the summary should be prioritized or cut.",
+    "sampleAnswer": "Dear Project Sponsor,\n\nThank you for your constructive feedback on the market research report draft. I can definitely edit the executive summary down to a single page. I will have the revised version ready for your review by this coming Thursday afternoon.\n\nTo ensure I capture exactly what you need, I have two questions. Firstly, should I prioritize highlighting the raw demographic statistics or the competitive analysis conclusions? Secondly, are there any specific sections from the current draft that you feel should be cut entirely to save space?\n\nI look forward to finalizing this for the board presentation.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "testId": 5,
+    "id": 57,
+    "questionNumber": 7,
+    "imageUrl": null,
+    "keywords": "Read the e-mail below.\n\nFROM: Local Council\nTO: Community Member\nSUBJECT: Upcoming Festival Volunteers\nSENT: April 10, 11:00 AM\n\nThe annual Spring Town Festival is fast approaching! We are currently suffering from a shortage of volunteers to help run the event smoothly. We specifically need people for managing the parking lot, manning the ticketing booths, and supervising the children's play area. Would you be willing to volunteer for a 4-hour shift on either Saturday or Sunday?\n\nRespond to the e-mail as if you are a community member. In your e-mail, state which day and task you want to volunteer for, and make ONE request regarding food or uniform for volunteers.",
+    "sampleAnswer": "To the Local Council,\n\nI would be more than happy to volunteer my time to help with the annual Spring Town Festival.\n\nI am available to work a 4-hour shift on Saturday afternoon. I would prefer to be assigned to manning the ticketing booths, as I have previous experience handling cash and customer service.\n\nCould you please let me know if volunteers will be provided with a complimentary lunch or meal voucher during our shifts, or if we should plan to bring our own food?\n\nThank you for organizing this wonderful community event.\n\nSincerely,\n[Your Name]"
+  },
+  {
+    "testId": 5,
+    "id": 58,
+    "questionNumber": 8,
+    "imageUrl": null,
+    "keywords": "Many people believe that printed books will eventually be entirely replaced by electronic books (e-books). Do you agree or disagree with this statement? Provide specific reasons and examples to support your viewpoint.",
+    "sampleAnswer": "The rapid advancement of digital technology over the past few decades has revolutionized the way we consume media, leading to the widespread popularity of electronic books (e-books) and dedicated e-readers. This shift has prompted some to predict that physical, printed books will eventually become obsolete, entirely replaced by their digital counterparts. While e-books offer undeniable convenience, I disagree with the assertion that they will entirely replace printed books, as physical books offer a unique sensory experience, facilitate better retention, and serve cultural and emotional purposes that digital formats cannot replicate.\n\nFirstly, physical books offer a tangible, sensory experience that deeply appeals to many readers and cannot be digitized. The smell of paper and ink, the tactile sensation of turning a page, and the visual satisfaction of seeing a bookmark progress through a厚 thick novel create an immersive environment. For avid readers, a book is not just a vessel for information; it is a physical artifact. Furthermore, book collecting and the aesthetic appeal of a well-stocked bookshelf in a home or library are cultural deeply ingrained habits that screens cannot replace.\n\nSecondly, research suggests that reading physical books is often superior for comprehension and retention. The glare of a screen, even on specialized e-readers, can cause eye strain and fatigue more quickly than reading printed text. More importantly, the physical geography of a book—knowing approximately where a piece of information was located halfway down a left-hand page—helps the brain map and remember the text. In contrast, scrolling through endless digital pages often leads to distracted reading and poorer recall, making physical books preferable for intensive studying or deep, focused reading.\n\nFinally, while e-books are highly convenient for travel and instant access, printed books possess an independence from technology that ensures their survival. A physical book never needs to be recharged, requires no software updates, and cannot be accidentally deleted or lost in a server crash. They are robust, reliable, and accessible regardless of one's access to electricity or the internet. This reliability, combined with the fact that printed books can be easily shared, sold, or gifted without digital rights management restrictions, guarantees their ongoing utility.\n\nIn conclusion, while e-books have secured a permanent and significant place in the publishing industry due to their portability and convenience, they will not entirely eradicate printed books. The unique sensory engagement, cognitive benefits, and technological independence of physical books ensure that they will coexist with digital formats, catering to the diverse preferences and needs of readers for generations to come."
+  }
+]
