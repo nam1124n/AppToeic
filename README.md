@@ -51,4 +51,4 @@ This project is built using modern Android development best practices:
 
 ## 👨‍💻 Developed By
 
-[nam1124n]
+[NamPer]
