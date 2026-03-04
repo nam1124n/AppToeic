@@ -51,7 +51,7 @@ fun SignInScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFF1E2439)) // Dark blue background
+            .background(MaterialTheme.colorScheme.background)
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
@@ -66,7 +66,7 @@ fun SignInScreen(
              // Hexagonal shape simulation or just text for now
              Text(
                  text = "TOEIC®\nTest Pro",
-                 color = MaterialTheme.colorScheme.onPrimary,
+                 color = MaterialTheme.colorScheme.primary,
                  fontSize = 24.sp,
                  fontWeight = FontWeight.Bold,
                  textAlign = TextAlign.Center
@@ -106,7 +106,7 @@ fun SignInScreen(
         Spacer(modifier = Modifier.height(24.dp))
 
         if (authState is AuthState.Loading) {
-            CircularProgressIndicator(color = MaterialTheme.colorScheme.onPrimary)
+            CircularProgressIndicator(color = MaterialTheme.colorScheme.primary)
         } else {
             AuthButton(
                 text = "Sign In",

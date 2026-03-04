@@ -1,27 +1,39 @@
 package com.example.toeic_app.presentation.home
 
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.grid.GridCells
-import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
-import androidx.compose.foundation.lazy.grid.items
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CalendarToday
 import androidx.compose.material.icons.filled.Create
 import androidx.compose.material.icons.filled.Headphones
-import androidx.compose.material.icons.filled.Menu
-import androidx.compose.material.icons.filled.Mic
 import androidx.compose.material.icons.filled.MenuBook
 import androidx.compose.material.icons.filled.RecordVoiceOver
 import androidx.compose.material.icons.rounded.Menu
-import androidx.compose.material3.*
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -29,16 +41,11 @@ import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.example.toeic_app.presentation.home.components.StreakHeader
-
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
 
 @Composable
 fun HomeScreen(
@@ -55,13 +62,13 @@ fun HomeScreen(
             .padding(16.dp)
     ) {
         HomeHeader(onOpenDrawer = onOpenDrawer)
-        
+
         Spacer(modifier = Modifier.height(16.dp))
-        
+
         StreakHeader()
-        
+
         Spacer(modifier = Modifier.height(20.dp))
-        
+
         // Scrollable content
         LazyColumn(
             modifier = Modifier.weight(1f),
@@ -70,7 +77,7 @@ fun HomeScreen(
             item {
                 GoalBanner()
             }
-            
+
             if (isAdmin) {
                 item {
                     Button(
@@ -78,11 +85,14 @@ fun HomeScreen(
                         modifier = Modifier.fillMaxWidth(),
                         colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error) // Red button for Admin
                     ) {
-                        Text("Admin Panel - Quản lý Đề Thi Writing", color = MaterialTheme.colorScheme.onError)
+                        Text(
+                            "Admin Panel - Quản lý Đề Thi Writing",
+                            color = MaterialTheme.colorScheme.onError
+                        )
                     }
                 }
             }
-            
+
             item {
                 SectionHeader(title = "Skill-focused practice")
                 Spacer(modifier = Modifier.height(8.dp))
@@ -94,15 +104,15 @@ fun HomeScreen(
                 Spacer(modifier = Modifier.height(16.dp))
                 SkillFocusedPracticeGrid()
             }
-            
+
             item {
                 SectionHeader(title = "Other skills you can practice")
                 Spacer(modifier = Modifier.height(16.dp))
                 OtherSkillsGrid(onNavigateToWriting = onNavigateToWriting)
             }
-            
+
             item {
-                 SectionHeader(title = "TOEIC Test Prep")
+                SectionHeader(title = "TOEIC Test Prep")
             }
         }
     }
@@ -124,7 +134,11 @@ fun HomeHeader(
                 .background(MaterialTheme.colorScheme.surface, RoundedCornerShape(12.dp))
                 .size(40.dp)
         ) {
-            Icon(Icons.Rounded.Menu, contentDescription = "Menu", tint = MaterialTheme.colorScheme.primary)
+            Icon(
+                Icons.Rounded.Menu,
+                contentDescription = "Menu",
+                tint = MaterialTheme.colorScheme.primary
+            )
         }
 
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -136,7 +150,11 @@ fun HomeHeader(
                     .size(40.dp)
             ) {
                 // Crown icon placeholder tint
-                Icon(Icons.Default.CalendarToday, contentDescription = "Premium", tint = Color(0xFFF59E0B)) 
+                Icon(
+                    Icons.Default.CalendarToday,
+                    contentDescription = "Premium",
+                    tint = Color(0xFFF59E0B)
+                )
             }
             IconButton(
                 onClick = { /* Calendar */ },
@@ -145,7 +163,11 @@ fun HomeHeader(
                     .background(MaterialTheme.colorScheme.surface, RoundedCornerShape(12.dp))
                     .size(40.dp)
             ) {
-                Icon(Icons.Default.CalendarToday, contentDescription = "Calendar", tint = MaterialTheme.colorScheme.primary)
+                Icon(
+                    Icons.Default.CalendarToday,
+                    contentDescription = "Calendar",
+                    tint = MaterialTheme.colorScheme.primary
+                )
             }
         }
     }
@@ -231,7 +253,10 @@ fun SkillFocusedPracticeGrid() {
         SkillCard(
             title = "Reading",
             icon = Icons.Default.MenuBook,
-            gradientColors = listOf(Color(0xFFFFE4B5), Color(0xFFFF4500)), // LightOrange to RedOrange
+            gradientColors = listOf(
+                Color(0xFFFFE4B5),
+                Color(0xFFFF4500)
+            ), // LightOrange to RedOrange
             modifier = Modifier.weight(1f),
             onClick = {}
         )
@@ -308,13 +333,13 @@ fun SkillCard(
             // Icon with gradient logic requires drawing specially or using a tinted resource.
             // For simplicity, we use the gradient for the icon tint if possible, or just a solid color from the list.
             // Detailed gradient icon requires `ShaderBrush`.
-            
+
             // Icon Placeholder
             Icon(
                 imageVector = icon,
                 contentDescription = title,
                 tint = gradientColors.first(), // Use first color of gradient for now
-                modifier = Modifier.size(48.dp) 
+                modifier = Modifier.size(48.dp)
             )
             Spacer(modifier = Modifier.height(16.dp))
             Text(

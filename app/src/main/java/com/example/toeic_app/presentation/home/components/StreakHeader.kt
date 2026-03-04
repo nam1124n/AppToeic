@@ -55,7 +55,7 @@ fun StreakHeaderContent(
         modifier = Modifier
             .fillMaxWidth()
             .padding(16.dp),
-        colors = CardDefaults.cardColors(containerColor = Color(0xFF2C2F33)),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
         shape = RoundedCornerShape(16.dp),
         elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
     ) {
@@ -106,17 +106,17 @@ fun StreakHeaderContent(
                                 .size(32.dp)
                                 .clip(CircleShape)
                                 .background(
-                                    when {
-                                        isStudied -> Color(0xFFFF9800) // Orange Fire Color
-                                        isToday -> Color.DarkGray
-                                        else -> Color.Transparent
-                                    }
-                                ),
+                                when {
+                                    isStudied -> Color(0xFFFF9800) // Orange Fire Color
+                                    isToday -> MaterialTheme.colorScheme.inverseSurface
+                                    else -> Color.Transparent
+                                }
+                            ),
                             contentAlignment = Alignment.Center
                         ) {
                             Text(
                                 text = date.dayOfMonth.toString(),
-                                color = if (isStudied || isToday) MaterialTheme.colorScheme.onPrimary else MaterialTheme.colorScheme.onSurfaceVariant,
+                                color = if (isStudied) Color.White else if (isToday) MaterialTheme.colorScheme.inverseOnSurface else MaterialTheme.colorScheme.onSurfaceVariant,
                                 fontSize = 12.sp,
                                 fontWeight = if (isToday || isStudied) FontWeight.Bold else FontWeight.Normal
                             )

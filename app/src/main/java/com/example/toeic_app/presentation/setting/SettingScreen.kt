@@ -159,7 +159,7 @@ fun SettingItemNotification(
         
         // Time Pill
         Surface(
-            color = Color(0xFFF3F4F6),
+            color = MaterialTheme.colorScheme.surfaceVariant,
             shape = RoundedCornerShape(8.dp),
             modifier = Modifier.padding(end = 8.dp)
         ) {
@@ -204,7 +204,7 @@ fun SettingItemDropdown(
         Text(title, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
         
         Surface(
-            color = Color(0xFFF3F4F6),
+            color = MaterialTheme.colorScheme.surfaceVariant,
             shape = RoundedCornerShape(8.dp)
         ) {
             Row(

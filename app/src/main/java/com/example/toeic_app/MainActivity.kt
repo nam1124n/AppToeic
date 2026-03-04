@@ -30,6 +30,8 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import com.example.toeic_app.domain.usecase.theme.GetThemeUseCase
 import javax.inject.Inject
+import com.example.toeic_app.domain.usecase.GetCurrentUserUseCase
+import com.google.firebase.auth.FirebaseAuth
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -37,26 +39,35 @@ class MainActivity : ComponentActivity() {
     @Inject
     lateinit var getThemeUseCase: GetThemeUseCase
 
+    @Inject
+    lateinit var getCurrentUserUseCase: GetCurrentUserUseCase
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
             val isLightMode by getThemeUseCase().collectAsState(initial = true)
             Toeic_appTheme(darkTheme = !isLightMode) {
-                MainScreen()
+                val startDestination = if (getCurrentUserUseCase() != null) {
+                    Screen.Home.route
+                } else {
+                    Screen.SignIn.route
+                }
+                MainScreen(startDestination = startDestination)
             }
         }
     }
 }
 
 @Composable
-fun MainScreen() {
+fun MainScreen(startDestination: String = Screen.SignIn.route) {
     val navController = rememberNavController()
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination?.route
 
     val drawerState = rememberDrawerState(initialValue = DrawerValue.Closed)
     val scope = rememberCoroutineScope()
+    val auth = FirebaseAuth.getInstance()
 
     ModalNavigationDrawer(
         drawerState = drawerState,
@@ -65,6 +76,7 @@ fun MainScreen() {
             DrawerContent(
                 onSignOut = {
                     scope.launch {
+                        auth.signOut()
                         drawerState.close()
                         navController.navigate(Screen.SignIn.route)
                         {
@@ -93,6 +105,7 @@ fun MainScreen() {
             ) {
                 NavGraph(
                     navController = navController,
+                    startDestination = startDestination,
                     onOpenDrawer = {
                         scope.launch { drawerState.open() }
                     }

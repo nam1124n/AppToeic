@@ -15,11 +15,12 @@ import com.example.toeic_app.presentation.auth.SignUpScreen
 @Composable
 fun NavGraph(
     navController: NavHostController,
+    startDestination: String = Screen.SignIn.route,
     onOpenDrawer: () -> Unit = {}
 ) {
     NavHost(
         navController = navController,
-        startDestination = Screen.SignIn.route
+        startDestination = startDestination
     ) {
         composable(Screen.Home.route) {
             HomeScreen(
